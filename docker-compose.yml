@@ -15,7 +15,7 @@ services:
       - docmost:/app/data/storage
     labels:
       - 'traefik.enable=true'
-      - 'traefik.http.routers.docmost.rule=Host(`dns-name`)'
+      - 'traefik.http.routers.docmost.rule=Host(`mrcloudbook.online`)'
       - 'traefik.http.services.docmost.loadbalancer.server.port=3000'
       - 'traefik.http.routers.docmost.entrypoints=websecure'
       - 'traefik.http.routers.docmost.tls.certresolver=myresolver'
@@ -52,7 +52,7 @@ services:
       - '--entrypoints.web.address=:80'
       - '--entrypoints.websecure.address=:443'
       - '--certificatesresolvers.myresolver.acme.tlschallenge=true'
-      - '--certificatesresolvers.myresolver.acme.email=mail'
+      - '--certificatesresolvers.myresolver.acme.email=postbox.aj99@gmail.com'
       - '--certificatesresolvers.myresolver.acme.storage=/certs/acme.json'
       - '--log.level=DEBUG'
     ports:
