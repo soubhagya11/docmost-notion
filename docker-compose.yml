@@ -2,7 +2,7 @@ version: '3'
 
 services:
   docmost:
-    image: sevenajay/docmost:latest
+    image: docmost/docmost:latest
     depends_on:
       - db
       - redis
