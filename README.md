@@ -10,7 +10,6 @@
 <br />
 
 > [!NOTE]  
-# InfoSec Black Friday Cyber Monday Deals - 2024 Latest
 
 # 💻 Practical DevSecOps Black-Friday Deals
 
